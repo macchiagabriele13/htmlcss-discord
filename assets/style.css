@@ -14,6 +14,7 @@
     --sezpari: #F6F6F6;
     --colstretta: #FFC0CB;
     --sezdispari: #FFFFFF;
+    --titlefooter: #7289DA;
 
 
 }
@@ -287,13 +288,36 @@ header {
     justify-content: center;
 }
 
+.title_footer{
+    font-size: 32px;
+    color:var(--titlefooter);
+    font-weight: 800;
+    padding-right: 100px;
+}
 
+.bandiera{
+    height: 15px;
+}
 
+#lingue {
+    border: none;
+    background-color: transparent;
+    color: white;
+}
 
+.social, .sel_lingua{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+}
 
-
-
-
+.link_icona{
+    margin-right: 24px;
+}
+.icona_footer{
+    width: 24px;
+    height: 24px;
+}
 
 .logo_footer {
     max-width: 1200px;
@@ -311,7 +335,8 @@ footer {
 .row_footer {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 50px;
+    padding-top: 80px;
+    padding-bottom: 64px;
 }
 
 .wave_grey{
