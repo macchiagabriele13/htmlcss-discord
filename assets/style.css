@@ -11,7 +11,7 @@
     --nav: #DAA520;
     --backtitolo: #EE82EE;
     --collarga: #1E90FF;
-    --sezpari: #D3D3D3;
+    --sezpari: #F6F6F6;
     --colstretta: #FFC0CB;
     --sezdispari: #FFFFFF;
 
@@ -107,6 +107,16 @@ header {
     margin: 0px 10px;
 }
 
+.button_blue {
+    border-radius: 24px;
+    background-color:#7289DA;
+    color: white;
+    padding: 8px 15px;
+    border-color: transparent;
+    margin: 0px 10px;
+    align-self: center;
+}
+
 .button_black {
     border-radius: 24px;
     background-color: black;
@@ -167,10 +177,6 @@ header {
 
 }
 
-.sezione {
-    display: flex;
-}
-
 
 .titolo {
     text-align: center;
@@ -217,6 +223,15 @@ header {
     text-align: left;
 }
 
+.flex{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
 
 
 .img_div{
@@ -242,8 +257,27 @@ header {
     justify-content: center;
     align-content: center;
     margin: 50px;
-    background-color: green;
     width: 100%;
+    text-align: center;
+}
+
+.titolo_mainsez {
+    padding: 20px 0px;
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.subt_mainsez {
+    font-size: 15px;
+    color: black;
+    padding: 0px 300px;
+
+}
+
+.title_button{
+    padding-bottom: 1rem;
 }
 
 
