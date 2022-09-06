@@ -280,6 +280,20 @@ header {
     padding-bottom: 1rem;
 }
 
+.star{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
 
 .logo_footer {
     max-width: 1200px;
@@ -298,4 +312,12 @@ footer {
     display: flex;
     flex-wrap: wrap;
     padding-top: 50px;
+}
+
+.wave_grey{
+    color: var(--sezpari);
+}
+
+.wave_white{
+    color: var(--sezdispari);
 }
