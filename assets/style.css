@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 :root {
@@ -143,7 +144,6 @@ header {
 
 .col_4 {
     width: calc((100% / 12)* 4);
-    height: 570px;
 }
 
 .sottocol {
@@ -319,6 +319,23 @@ header {
     height: 24px;
 }
 
+.title_link_footer{
+    padding-top: 8px;
+    color: var(--titlefooter);
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.link_footer{
+    margin-top: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+}
+
 .logo_footer {
     max-width: 1200px;
     margin: auto;
@@ -326,6 +343,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top: 1px solid;
+    border-color: var(--titlefooter);
 }
 
 footer {
